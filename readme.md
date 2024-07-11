@@ -1,6 +1,6 @@
 <p align="center">
     <img src="https://github.com/rose-pine/rose-pine-theme/raw/main/assets/icon.png" width="80" />
-    <h2 align="center">Rosé Pine for App</h2>
+    <h2 align="center">Rosé Pine for ghostty</h2>
 </p>
 
 <p align="center">All natural pine, faux fur and a bit of soho vibes for the classy minimalist</p>
@@ -13,35 +13,66 @@
 
 ## Usage
 
-1. Open App
-2. Under settings, import `rose-pine.theme`
-3. Select `Rosé Pine` from the themes dropdown
+Ghostty has a built-in theme for Rosé Pine from [iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes/), however, due to [this issue](https://github.com/mbadolato/iTerm2-Color-Schemes/issues/442), there need to be manual overrides until it's fixed.
+
+Add the following to your `~/.config/ghostty/config`:
+
+### Rosé Pine
+
+```yaml
+theme = rose-pine
+
+# green
+palette = 2=#31748f
+palette = 10=#31748f
+# blue
+palette = 4=#9ccfd8
+palette = 12=#9ccfd8
+```
+
+### Moon
+
+```yaml
+theme = rose-pine-moon
+# See: https://github.com/mbadolato/iTerm2-Color-Schemes/issues/442
+# green
+palette = 2=#3e8fb0
+palette = 10=#3e8fb0
+# blue
+palette = 4=#9ccfd8
+palette = 12=#9ccfd8
+```
+
+### Dawn
+
+```yaml
+theme = rose-pine-dawn
+# See: https://github.com/mbadolato/iTerm2-Color-Schemes/issues/442
+# green
+palette = 2=#286983
+palette = 10=#286983
+# blue
+palette = 4=#56949f
+palette = 12=#56949f
+```
 
 ## Gallery
 
-![Rosé Pine with App](https://user-images.githubusercontent.com/1474821/166155319-06796439-95a7-4aea-910e-927c1f24518e.png)
+### Rosé Pine
+
+![image](https://github.com/user-attachments/assets/1a6aea19-e666-4ff3-a4f4-ff8cd9d08d2d)
+
+
+### Moon
+
+![image](https://github.com/user-attachments/assets/2df03c0a-a6a7-4678-8854-2b8d0d7b7392)
+
+
+### Dawn
+
+![image](https://github.com/user-attachments/assets/4099651c-a916-4418-9537-3fdba3237da0)
+
 
 ## Thanks to
 
-- [You, it's you!](https://github.com/<username>)
-
-## Contributing
-
-> Prefer using [@rose-pine/build](https://github.com/rose-pine/build) when possible
-
-Modify `template.json` using Rosé Pine variables, then build variants:
-
-```sh
-npx @rose-pine/build@latest
-```
-
-## Style guide
-
-> Be sure to remove this section 😌
-
-- Lowercase meta files, eg. `readme.md`
-- Repo name should be the simplest version of the app name, eg. iterm instead of iTerm2
-- Add a description and topics to automatically show the theme on [rosepinetheme.com/themes](https://rosepinetheme.com/themes)
-    - Description should read "Soho vibes for App" where "App" is the display name
-    - Topics should include [existing categories](https://rosepinetheme.com/themes)
-    - Generate and upload social image via [Rosé Pine Images](https://rose-pine-images.vercel.app)
+- [ThatOneCalculator](https://github.com/thatonecalculator)
