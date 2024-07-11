@@ -34,7 +34,7 @@ palette = 12=#9ccfd8
 
 ```yaml
 theme = rose-pine-moon
-# See: https://github.com/mbadolato/iTerm2-Color-Schemes/issues/442
+
 # green
 palette = 2=#3e8fb0
 palette = 10=#3e8fb0
@@ -47,7 +47,7 @@ palette = 12=#9ccfd8
 
 ```yaml
 theme = rose-pine-dawn
-# See: https://github.com/mbadolato/iTerm2-Color-Schemes/issues/442
+
 # green
 palette = 2=#286983
 palette = 10=#286983
