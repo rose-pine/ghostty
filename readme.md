@@ -28,6 +28,8 @@ palette = 10=#31748f
 # blue
 palette = 4=#9ccfd8
 palette = 12=#9ccfd8
+
+selection-background = #403d52
 ```
 
 ### Moon
@@ -41,6 +43,8 @@ palette = 10=#3e8fb0
 # blue
 palette = 4=#9ccfd8
 palette = 12=#9ccfd8
+
+selection-background = #44415a
 ```
 
 ### Dawn
@@ -54,6 +58,8 @@ palette = 10=#286983
 # blue
 palette = 4=#56949f
 palette = 12=#56949f
+
+selection-background = #dfdad9
 ```
 
 ## Gallery
