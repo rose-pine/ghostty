@@ -13,53 +13,12 @@
 
 ## Usage
 
-Ghostty has a built-in theme for Rosé Pine from [iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes/), however, due to [this issue](https://github.com/mbadolato/iTerm2-Color-Schemes/issues/442), there need to be manual overrides until it's fixed.
-
-Add the following to your `~/.config/ghostty/config`:
-
-### Rosé Pine
+Ghostty has a built-in theme for Rosé Pine from [iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes/). Add the following to your `~/.config/ghostty/config`:
 
 ```yaml
 theme = rose-pine
-
-# green
-palette = 2=#31748f
-palette = 10=#31748f
-# blue
-palette = 4=#9ccfd8
-palette = 12=#9ccfd8
-
-selection-background = #403d52
-```
-
-### Moon
-
-```yaml
-theme = rose-pine-moon
-
-# green
-palette = 2=#3e8fb0
-palette = 10=#3e8fb0
-# blue
-palette = 4=#9ccfd8
-palette = 12=#9ccfd8
-
-selection-background = #44415a
-```
-
-### Dawn
-
-```yaml
-theme = rose-pine-dawn
-
-# green
-palette = 2=#286983
-palette = 10=#286983
-# blue
-palette = 4=#56949f
-palette = 12=#56949f
-
-selection-background = #dfdad9
+# theme = rose-pine-moon
+# theme = rose-pine-dawn
 ```
 
 ## Gallery
