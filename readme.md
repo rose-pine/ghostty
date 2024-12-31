@@ -1,6 +1,6 @@
 <p align="center">
     <img src="https://github.com/rose-pine/rose-pine-theme/raw/main/assets/icon.png" width="80" />
-    <h2 align="center">Rosé Pine for ghostty</h2>
+    <h2 align="center">Rosé Pine for Ghostty</h2>
 </p>
 
 <p align="center">All natural pine, faux fur and a bit of soho vibes for the classy minimalist</p>
@@ -25,17 +25,17 @@ theme = rose-pine
 
 ### Rosé Pine
 
-![image](https://github.com/user-attachments/assets/1a6aea19-e666-4ff3-a4f4-ff8cd9d08d2d)
+![Rosé Pine for Ghostty](https://github.com/user-attachments/assets/1a6aea19-e666-4ff3-a4f4-ff8cd9d08d2d)
 
 
-### Moon
+### Rosé Pine Moon
 
-![image](https://github.com/user-attachments/assets/2df03c0a-a6a7-4678-8854-2b8d0d7b7392)
+![Rosé Pine Moon for Ghostty](https://github.com/user-attachments/assets/2df03c0a-a6a7-4678-8854-2b8d0d7b7392)
 
 
-### Dawn
+### Rosé Pine Dawn
 
-![image](https://github.com/user-attachments/assets/4099651c-a916-4418-9537-3fdba3237da0)
+![Rosé Pine Dawn for Ghostty](https://github.com/user-attachments/assets/4099651c-a916-4418-9537-3fdba3237da0)
 
 
 ## Thanks to
