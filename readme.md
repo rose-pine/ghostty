@@ -16,7 +16,11 @@
 Ghostty has a built-in theme for Rosé Pine from [iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes/). Add the following to your `~/.config/ghostty/config`:
 
 ```yaml
-theme = rose-pine
+# Automatic dark/light switching
+theme = dark:rose-pine,light:rose-pine-dawn
+
+# Or set individual themes
+# theme = rose-pine
 # theme = rose-pine-moon
 # theme = rose-pine-dawn
 ```
