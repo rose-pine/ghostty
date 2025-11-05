@@ -25,6 +25,20 @@ theme = dark:Rose Pine,light:Rose Pine Dawn
 # theme = Rose Pine Dawn
 ```
 
+### Local
+
+Download the themes from the dist folder and move them to the themes folder inside your Ghostty config, e.g. `~/.config/ghostty/themes` and apply like so:
+
+```yaml
+# Automatic dark/light switching
+theme = dark:rose-pine,light:rose-pine-dawn
+
+# Or set individual themes
+# theme = rose-pine
+# theme = rose-pine-moon
+# theme = rose-pine-dawn
+```
+
 ## Gallery
 
 ### Rosé Pine
@@ -45,3 +59,7 @@ theme = dark:Rose Pine,light:Rose Pine Dawn
 ## Thanks to
 
 - [ThatOneCalculator](https://github.com/thatonecalculator)
+
+## Contributing
+
+This theme was built with [bloom](https://github.com/rose-pine/rose-pine-bloom) via `bloom template`.
