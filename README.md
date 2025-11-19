@@ -62,4 +62,10 @@ theme = dark:rose-pine,light:rose-pine-dawn
 
 ## Contributing
 
-This theme was built with [bloom](https://github.com/rose-pine/rose-pine-bloom) via `bloom template`.
+<!-- BLOOM_BUILD_START -->
+This theme was built using [bloom](https://github.com/rose-pine/rose-pine-bloom):
+
+```sh
+bloom build <template>
+```
+<!-- BLOOM_BUILD_END -->
