@@ -79,11 +79,9 @@ macos-custom-icon = ~/.config/ghostty/ghostty.app@2x.png
 ## Contributing
 
 <!-- BLOOM_BUILD_START -->
-
 This theme was built using [bloom](https://github.com/rose-pine/rose-pine-bloom):
 
 ```sh
-bloom build <template>
+bloom build template --output dist --prefix $ --format hex
 ```
-
 <!-- BLOOM_BUILD_END -->
