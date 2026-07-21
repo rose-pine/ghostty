@@ -18,7 +18,6 @@ Ghostty has a built-in theme for Rosé Pine from [iTerm2-Color-Schemes](https://
 ```yaml
 # Automatic dark/light switching
 theme = dark:Rose Pine,light:Rose Pine Dawn
-
 # Or set individual themes
 # theme = Rose Pine
 # theme = Rose Pine Moon
@@ -32,12 +31,32 @@ Download the themes from the dist folder and move them to the themes folder insi
 ```yaml
 # Automatic dark/light switching
 theme = dark:rose-pine,light:rose-pine-dawn
-
 # Or set individual themes
 # theme = rose-pine
 # theme = rose-pine-moon
 # theme = rose-pine-dawn
 ```
+
+## Change app icon
+
+> Docs are at https://ghostty.org/docs/config/reference#macos-custom-icon
+
+Place an included icon from`/icons` in your config location.
+
+```sh
+cp -r ./icons/ghostty.app@2x.png ~/.config/ghostty/ghostty.app@2x.png
+```
+
+Update your Ghostty config:
+
+```yaml
+macos-icon = custom
+macos-custom-icon = ~/.config/ghostty/ghostty.app@2x.png
+```
+
+|                                                                                  ghostty.app@2x.png                                                                                   |
+| :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| <img width="256" src="./icons/ghostty.app@2x.png" alt="Ghostty application icon featuring a winking ghost atop a big-sur style background with boo's organically sprinkled about." /> |
 
 ## Gallery
 
@@ -45,16 +64,13 @@ theme = dark:rose-pine,light:rose-pine-dawn
 
 ![Rosé Pine for Ghostty](https://github.com/user-attachments/assets/1a6aea19-e666-4ff3-a4f4-ff8cd9d08d2d)
 
-
 ### Rosé Pine Moon
 
 ![Rosé Pine Moon for Ghostty](https://github.com/user-attachments/assets/2df03c0a-a6a7-4678-8854-2b8d0d7b7392)
 
-
 ### Rosé Pine Dawn
 
 ![Rosé Pine Dawn for Ghostty](https://github.com/user-attachments/assets/4099651c-a916-4418-9537-3fdba3237da0)
-
 
 ## Thanks to
 
@@ -63,9 +79,11 @@ theme = dark:rose-pine,light:rose-pine-dawn
 ## Contributing
 
 <!-- BLOOM_BUILD_START -->
+
 This theme was built using [bloom](https://github.com/rose-pine/rose-pine-bloom):
 
 ```sh
 bloom build <template>
 ```
+
 <!-- BLOOM_BUILD_END -->
